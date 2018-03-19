@@ -24,7 +24,8 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableJpaRepositories("com.khoubyari.example.dao.jpa") // To segregate MongoDB and JPA repositories. Otherwise not needed.
 public class Application extends SpringBootServletInitializer {
 	
-	public boolean BREAKy = true; //tsnefkd
+	public boolean BREAKME = true; //tsnefkd
+	public boolean BREAKME2 = true; //tsnefkd
 
     private static final Class<Application> applicationClass = Application.class;
     private static final Logger log = LoggerFactory.getLogger(applicationClass);

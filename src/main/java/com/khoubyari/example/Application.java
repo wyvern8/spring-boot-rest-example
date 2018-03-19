@@ -26,7 +26,7 @@ public class Application extends SpringBootServletInitializer {
 	
 	public boolean BREAKME = true; //tsnsefkd
 	public boolean BREAKME2 = true; //tssnemd
-	public boolean BREAKME3 = true; //tsssnemd
+	public boolean BREAKME4 = true; //tsssnemd
 
     private static final Class<Application> applicationClass = Application.class;
     private static final Logger log = LoggerFactory.getLogger(applicationClass);

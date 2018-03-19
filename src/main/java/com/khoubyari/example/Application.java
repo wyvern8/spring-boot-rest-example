@@ -25,7 +25,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 public class Application extends SpringBootServletInitializer {
 	
 	public boolean BREAKME = true; //tsnefkd
-	public boolean BREAKME2 = true; //tsnefkd
+	public boolean BREAKME2 = true; //tsnemfkd
 
     private static final Class<Application> applicationClass = Application.class;
     private static final Logger log = LoggerFactory.getLogger(applicationClass);

@@ -47,7 +47,7 @@ public class HotelService {
         hotelRepository.delete(id);
     }
     
-    public String test = "test";
+    public String test = "tesht";
 
     //http://goo.gl/7fxvVf
     public Page<Hotel> getAllHotels(Integer page, Integer size) {

@@ -12,12 +12,14 @@
 
 - kubectl and helm installed and configured, and shell autocompletion
 	> https://docs.helm.sh/using_helm/#quickstart-guide
+
 	> https://kubernetes.io/docs/tasks/tools/install-kubectl/#enabling-shell-autocompletion
 
 - maven installed + java8 and jq (https://stedolan.github.io/jq/)
 
 - if you want to enable ingress, replace mysb.k8s.com.au in mysb/values.yaml with your domain, and configure + install:
 	> https://github.com/kubernetes/charts/tree/master/stable/nginx-ingress
+
 	> https://github.com/kubernetes/charts/tree/master/stable/kube-lego
 
 ## setup
@@ -52,7 +54,7 @@ curl localhost:8091/health | jq
 
 ## push to dockerhub and run in k8s directly
 ```
-docker push zotoio/mysb:latest
+docker push [yourDockerHub]/mysb:latest
 kubectl run --image=[yourDockerHub]/mysb:latest mysb-service --port=8091
 kubectl get pods
 kubectl logs -f [podname]

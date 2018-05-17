@@ -96,5 +96,6 @@ kubectl get ingress
 kukectl delete mysb-service
 helm delete --purge mysb-helm
 ```
+Remember to destroy and kubernetes/gcloud assets you no longer want.
 
 

@@ -11,7 +11,7 @@
 	> `docker login`
 
 - kubectl and helm installed and configured, and shell autocompletion
-	> https://docs.helm.sh/using_helm/#quickstart-guide	
+	> https://docs.helm.sh/using_helm/#quickstart-guide
 	> https://kubernetes.io/docs/tasks/tools/install-kubectl/#enabling-shell-autocompletion
 
 - maven installed + java8 and jq (https://stedolan.github.io/jq/)

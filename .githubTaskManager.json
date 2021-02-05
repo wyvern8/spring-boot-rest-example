@@ -1,7 +1,7 @@
 {
   "pull_request": {
-    "av": "test5",
-    "agentGroup": "K8S",
+    "av": "tesdkpndtl5",
+    "agentGroup": "av",
     "tasks": [
       {
         "executor": "DockerSonar",
